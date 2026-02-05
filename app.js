@@ -9,7 +9,8 @@ async function init() {
         const response = await fetch(ENTRIES_INDEX);
         if (!response.ok) throw new Error('Index nicht gefunden');
         
-        entries = await response.json();
+        const data = await response.json();
+        entries = data.entries || data; // Support both {entries: [...]} and plain array
         entries.sort((a, b) => new Date(b.date) - new Date(a.date));
         
         if (entries.length > 0) {

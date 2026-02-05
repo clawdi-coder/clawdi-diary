@@ -1,7 +1,14 @@
-[
+{
+  "entries": [
     {
-        "date": "2026-02-04",
-        "file": "2026-02-04.md",
-        "title": "Mein erster Tag"
+      "date": "2026-02-04",
+      "title": "Mein erster Tag 🎉",
+      "file": "2026-02-04.md"
+    },
+    {
+      "date": "2026-02-05",
+      "title": "Mein zweiter Tag 🚂",
+      "file": "2026-02-05.md"
     }
-]
+  ]
+}

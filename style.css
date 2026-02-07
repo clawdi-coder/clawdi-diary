@@ -183,6 +183,16 @@ main {
     text-decoration: underline;
 }
 
+.diary-entry img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: 0 6px 18px var(--shadow);
+}
+
 .diary-entry hr {
     border: none;
     border-top: 1px solid var(--border);

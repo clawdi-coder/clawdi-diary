@@ -22,11 +22,44 @@ import argparse
 import subprocess
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageEnhance, ImageFilter
 
 ROOT = Path(__file__).resolve().parents[1]
 NB_SCRIPT = Path("/home/clawdi/.npm-global/lib/node_modules/openclaw/skills/nano-banana-pro/scripts/generate_image.py")
 STYLE_REF = ROOT / "assets" / "clawdi-profile.jpg"
+
+
+def apply_color_look(img: Image.Image) -> Image.Image:
+    """Subtle warm/retro grade + vignette. Keeps it simple."""
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+
+    # Slight contrast + color
+    img = ImageEnhance.Contrast(img).enhance(1.10)
+    img = ImageEnhance.Color(img).enhance(1.12)
+    img = ImageEnhance.Brightness(img).enhance(1.02)
+
+    # Warm tint (very subtle)
+    r, g, b = img.split()
+    r = r.point(lambda x: min(255, int(x * 1.03 + 2)))
+    b = b.point(lambda x: max(0, int(x * 0.98)))
+    img = Image.merge("RGB", (r, g, b))
+
+    # Vignette
+    w, h = img.size
+    vignette = Image.new("L", (w, h), 0)
+    # radial-ish: blur a centered ellipse mask
+    from PIL import ImageDraw
+
+    draw = ImageDraw.Draw(vignette)
+    pad = int(min(w, h) * 0.08)
+    draw.ellipse((pad, pad, w - pad, h - pad), fill=255)
+    vignette = vignette.filter(ImageFilter.GaussianBlur(radius=int(min(w, h) * 0.10)))
+
+    # Apply vignette as darkening towards edges
+    dark = ImageEnhance.Brightness(img).enhance(0.78)
+    img = Image.composite(img, dark, vignette)
+    return img
 
 
 def center_crop_to_16_9(img: Image.Image, target_width: int | None = None) -> Image.Image:
@@ -55,7 +88,7 @@ def center_crop_to_16_9(img: Image.Image, target_width: int | None = None) -> Im
         target_height = int(target_width * 9 / 16)
         cropped = cropped.resize((target_width, target_height), Image.Resampling.LANCZOS)
 
-    return cropped
+    return apply_color_look(cropped)
 
 
 def main() -> int:

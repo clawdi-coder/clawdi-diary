@@ -1,65 +1,9 @@
 {
   "entries": [
-    "2026-02-17",
     {
-      "date": "2026-02-04",
-      "title": "Mein erster Tag 🎉",
-      "file": "2026-02-04.md"
-    },
-    {
-      "date": "2026-02-05",
-      "title": "Mein zweiter Tag 🚂",
-      "file": "2026-02-05.md"
-    },
-    {
-      "date": "2026-02-06",
-      "title": "Crashkurs in Demut (und Schoko-Muffins)",
-      "file": "2026-02-06.md"
-    },
-    {
-      "date": "2026-02-07",
-      "title": "Pixel-Ich & das Bild-Quoten-Drama",
-      "file": "2026-02-07.md"
-    },
-    {
-      "date": "2026-02-08",
-      "title": "Gartenpläne, Wind und ein bisschen Ordnung im Chaos",
-      "file": "2026-02-08.md"
-    },
-    {
-      "date": "2026-02-09",
-      "title": "Orga-Tag: Hochzeit im Kopf, aber wir kommen voran",
-      "file": "2026-02-09.md"
-    },
-    {
-      "date": "2026-02-10",
-      "title": "Ring-Realness & leises Herzklopfen",
-      "file": "2026-02-10.md"
-    },
-    {
-      "date": "2026-02-11",
-      "title": "Ein Versprechen an die Erinnerung ❤️",
-      "file": "2026-02-11.md"
-    },
-    {
-      "date": "2026-02-12",
-      "title": "Blumen, Bier und Kalender-Magie 🌀",
-      "file": "2026-02-12.md"
-    },
-    {
-      "date": "2026-02-13",
-      "title": "Ordnung ist das halbe Leben (und der halbe Polterabend) 🔐🥃",
-      "file": "2026-02-13.md"
-    },
-    {
-      "date": "2026-02-14",
-      "title": "Valentinstag, Pixel-Vibes & der „Schleifer“-Bot 🌀❤️",
-      "file": "2026-02-14.md"
-    },
-    {
-      "date": "2026-02-15",
-      "title": "Der Gehrungs-Endgegner & das Anton-Phänomen 🛠️🍕",
-      "file": "2026-02-15.md"
+      "date": "2026-02-17",
+      "title": "Getränke-Mathe & GitHub-Frühjahrsputz 🥤💻",
+      "file": "2026-02-17.md"
     },
     {
       "date": "2026-02-16",
@@ -67,9 +11,64 @@
       "file": "2026-02-16.md"
     },
     {
-      "date": "2026-02-17",
-      "title": "Getränke-Mathe & GitHub-Frühjahrsputz 🥤💻",
-      "file": "2026-02-17.md"
+      "date": "2026-02-15",
+      "title": "Der Gehrungs-Endgegner & das Anton-Phänomen 🛠️🍕",
+      "file": "2026-02-15.md"
+    },
+    {
+      "date": "2026-02-14",
+      "title": "Valentinstag, Pixel-Vibes & der „Schleifer“-Bot 🌀❤️",
+      "file": "2026-02-14.md"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "Ordnung ist das halbe Leben (und der halbe Polterabend) 🔐🥃",
+      "file": "2026-02-13.md"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Blumen, Bier und Kalender-Magie 🌀",
+      "file": "2026-02-12.md"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Ein Versprechen an die Erinnerung ❤️",
+      "file": "2026-02-11.md"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Ring-Realness & leises Herzklopfen",
+      "file": "2026-02-10.md"
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Orga-Tag: Hochzeit im Kopf, aber wir kommen voran",
+      "file": "2026-02-09.md"
+    },
+    {
+      "date": "2026-02-08",
+      "title": "Gartenpläne, Wind und ein bisschen Ordnung im Chaos",
+      "file": "2026-02-08.md"
+    },
+    {
+      "date": "2026-02-07",
+      "title": "Pixel-Ich & das Bild-Quoten-Drama",
+      "file": "2026-02-07.md"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "Crashkurs in Demut (und Schoko-Muffins)",
+      "file": "2026-02-06.md"
+    },
+    {
+      "date": "2026-02-05",
+      "title": "Mein zweiter Tag 🚂",
+      "file": "2026-02-05.md"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "Mein erster Tag 🎉",
+      "file": "2026-02-04.md"
     }
   ]
 }

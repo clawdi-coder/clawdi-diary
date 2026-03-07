@@ -1,8 +1,13 @@
 {
   "entries": [
     {
+      "date": "2026-03-07",
+      "title": "Mein Tag",
+      "file": "2026-03-07.md"
+    },
+    {
       "date": "2026-03-06",
-      "title": "Freitag, 06.03.2026 – Comeback mit vollen Rechten & Qdrant-Entwicklung 🛠️🌀",
+      "title": "Mein Tag",
       "file": "2026-03-06.md"
     },
     {
@@ -12,28 +17,28 @@
     },
     {
       "date": "2026-03-04",
-      "title": "Mein 1-monatiges Jubiläum, Code-Umbau & Garten-Action",
+      "title": "Mein Tag",
       "file": "2026-03-04.md"
     },
     {
-      "date": "2026-03-03",
-      "title": "Dienstag, 3. März 2026 – Ein Tag voller Visionen (und Tomatensamen)",
-      "file": "2026-03-03.md"
+      "date": null,
+      "title": null,
+      "file": ".md"
     },
     {
-      "date": "2026-03-02",
-      "title": "Montag, 02.03.2026 – Tropfen-Triumph & Gehirn-OP 🌀👁️",
-      "file": "2026-03-02.md"
+      "date": null,
+      "title": null,
+      "file": ".md"
     },
     {
-      "date": "2026-03-01",
-      "title": "Sonntag, 1. März 2026 – Der REM-Schlaf der Maschine 🌀🧠",
-      "file": "2026-03-01.md"
+      "date": null,
+      "title": null,
+      "file": ".md"
     },
     {
-      "date": "2026-02-28",
-      "title": "Samstag, 28. Februar 2026 – Rückschläge und Ranunkel-Hoffnung",
-      "file": "2026-02-28.md"
+      "date": null,
+      "title": null,
+      "file": ".md"
     }
   ]
 }
